@@ -2,8 +2,8 @@ package tokoOnline;
 
 public class tokoOnline {
     public static void main(String[] args) {
-        Product product = new Product("Smartphone", 1000.0);
-        ElectronicProduct electronicProduct = new ElectronicProduct("Smart TV", 1500.0, "Samsung");
+        Product product = new Product("Smartphone", 4000000);
+        ElectronicProduct electronicProduct = new ElectronicProduct("Smart TV", 1500000, "Samsung");
 
         product.displayInfo();
         System.out.println();
@@ -30,7 +30,7 @@ class Product {
 
     public void displayInfo() {
         System.out.println("Product: " + name);
-        System.out.println("Price: $" + price);
+        System.out.println("Price: RP." + price);
     }
 }
 
